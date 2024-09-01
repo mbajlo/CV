@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 /* table, td, th {
   border: 1px solid black;
 } */
@@ -27,11 +27,11 @@ td {
   vertical-align: top;
   text-align: left;
   border-left: 1px solid black;
-}
+} -->
 
 </style>
 
-<table>
+<table width="1000px">
 <thead>
 <tr>
     <th></th>
@@ -41,10 +41,10 @@ td {
 <tbody>
 <tr>
 <!-- <td width="300"> -->
-<td class="left_column">
+<td valign="top" align="left" width="30%" style="border-right: 1px solid black;">
 <div>
 
-**Marko Bajlo**
+## **Marko Bajlo**
 
 </div>
 <div>
@@ -79,7 +79,7 @@ Driving license: B <br>
 
 </td>
 <!-- <td width="600" vertical-align:top> -->
-<td class="right_column">
+<td valign="top" align="left" width="70%" style="border-left: 1px solid black;">
 <div>
 
 ## Work Experience
@@ -163,12 +163,7 @@ A Frequency Converter With a High Frequency of the First Harmonic
 ## Hobbies and Interests
 Continuous learning and education in embedded linux, security, IoT, computer, vision, robotics.
 
-
-
-
 </div>
-
-
 </td>
 </tr>
 </tbody>
