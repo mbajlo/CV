@@ -1,4 +1,5 @@
-<!-- <style>
+<!-- 
+<style>
 /* table, td, th {
   border: 1px solid black;
 } */
@@ -27,9 +28,9 @@ td {
   vertical-align: top;
   text-align: left;
   border-left: 1px solid black;
-} -->
-
+}
 </style>
+ -->
 
 <table width="1000px">
 <thead>
