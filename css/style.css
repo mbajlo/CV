@@ -1,0 +1,130 @@
+
+html{
+    font-family: 'Open Sans',sans-serif;
+    background: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    background: rgb(11, 5, 5);
+}
+.container{
+    position: relative;
+    display: flex;
+}
+.profile{
+    flex: 15%;
+    display: block;
+    position: relative;
+    margin: 5% 2% 0 10%;
+    width: 100%;
+    height: 100%;
+}
+.profile_image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; /* 10px; */
+}
+
+.sections{
+    flex: 55%;
+    display: block;
+    margin-top: 5%;
+    margin-right: 10%;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    position: relative;
+    overflow: hidden;
+ }
+strong,span{
+    color: black;
+    font-size: 16px;
+}
+.shortcard{
+    overflow-x: hidden;
+    margin-bottom: 10px;
+    background-color: transparent;
+    display:inline;
+    font-weight: bolder;
+}
+.shortcard p{
+    display:inline;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 13.5px;
+}
+.shortcard i{
+    display:inline;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 13.5px;
+}
+.shortcard h1{
+    display:inline;
+    margin-bottom: 10px;
+    color: #3b3b3b;
+    font-size: 20px;
+}
+.shortcard strong{
+    display:inline;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 13.5px;
+}
+.card{
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+    overflow-x: hidden;
+    margin-bottom: 10px;
+    padding: 15px 30px 30px 30px;
+    background-color: #fff;
+}
+.card > p{
+    color: #0e141e;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 2;
+}
+.card > p > i{
+    font-size: 18px;
+}
+.card > a{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    border: 0;
+    height: auto;
+    background: transparent;
+    color: #097bbf;
+    outline: none;
+    cursor: pointer;
+}
+.card > ul{
+    list-style-type: none;
+}
+.link{
+    color: blue;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.tags{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.tags ~ a{
+    display: none !important;
+}
+.tags span{
+    font-size: 14px;
+    font-weight: normal;
+    color: #0e141e;
+}
+.tags span span{
+    color: #738f93;
+}
