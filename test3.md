@@ -34,10 +34,10 @@ td {
 
 <table width="1000px">
 <thead>
-<tr>
+<!-- <tr>
     <th></th>
     <th></th>
-</tr>
+</tr> -->
 </thead>
 <tbody>
 <tr>
